@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  replyrentacarsystem.api:
+    image: replyrentacarsystem.api
+    build:
+      context: ./ReplyRentACarSystem.Api
+      dockerfile: Dockerfile
